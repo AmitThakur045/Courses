@@ -12,4 +12,5 @@ export const data = {
   months: "11",
   detail: "Online Mentorship",
   closeData: "15th May 2022",
+  call: "080-4718-9251",
 };
