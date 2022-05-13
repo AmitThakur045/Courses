@@ -1,12 +1,16 @@
 import React from "react";
+import Faculty from "./components/Faculty";
+import Project from "./components/Project";
 import Header from "./components/Header";
 import MainDisplay from "./components/MainDisplay";
 
 function App() {
   return (
-    <div className="flex flex-col">
+    <div className="App">
       <Header />
       <MainDisplay />
+      <Project />
+      <Faculty />
     </div>
   );
 }
