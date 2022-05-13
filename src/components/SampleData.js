@@ -8,13 +8,13 @@ const SampleData = () => {
         <img src={photo} alt="logo" />
       </div>
       <div className="flex flex-col space-y-3 justify-start">
-        <div className="text-slate-500 text-[1.1rem] font-light w-[32rem]">
+        <div className="text-slate-500 text-[1.1rem] font-light w-[30rem]">
           Real Estate
         </div>
-        <div className="font-medium text-2xl w-[32rem]">
+        <div className="font-medium text-2xl w-[30rem]">
           House Price Prediction
         </div>
-        <div className="text-sky-600 text-1xl w-[32rem]">LEARN MORE</div>
+        <div className="text-sky-600 text-1xl w-[30rem]">LEARN MORE</div>
       </div>
     </div>
   );
