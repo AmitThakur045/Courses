@@ -2,7 +2,20 @@ import React from "react";
 import Carousel from "react-elastic-carousel";
 import { UserOutlined, TeamOutlined } from "@ant-design/icons";
 import FacultyMember from "./FacultyMember";
-import photo from "../assests/sample.png";
+import image from "../assests/image.jpg";
+
+const styles = {
+  display: "flex",
+  justifyContent: "center",
+  alignItems: "end",
+  width: "100%",
+  height: "320px",
+  backgroundposition: "top",
+  backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(${image})`,
+  backgroundsize: "cover",
+  color: "#fff",
+  margin: "0 15px",
+};
 
 const Faculty = () => {
   const items = [
@@ -59,10 +72,12 @@ const Faculty = () => {
         <div className="p-2">
           <Carousel breakPoints={breakPoints}>
             {items.map((item) => (
-              <FacultyMember key={item.id}>
-                <p>{item.title}</p>
-                <img src={photo} alt="images" />
-              </FacultyMember>
+              <div style={styles} key={item.id}>
+                <div className="flex flex-col">
+                  <p className="text-xl">{item.title}</p>
+                  <p className="text-sm from-stone-300">Description</p>
+                </div>
+              </div>
             ))}
           </Carousel>
         </div>
