@@ -9,14 +9,16 @@ const SampleData = () => {
       </div>
       <div className="flex flex-col space-y-3 justify-between">
         <div className="flex flex-col space-y-6 justify-start">
-          <div className="text-slate-500 text-[1.1rem] font-light w-[32rem]">
+          <div className="text-slate-500 text-[1.1rem] font-light w-[32rem] flex justify-start">
             Real Estate
           </div>
-          <div className="font-medium text-2xl w-[32rem]">
+          <div className="font-medium text-2xl w-[32rem] flex justify-start">
             House Price Prediction
           </div>
         </div>
-        <div className="text-sky-600 text-1xl w-[32rem]">LEARN MORE</div>
+        <div className="text-sky-600 text-1xl w-[32rem] flex justify-start">
+          LEARN MORE
+        </div>
       </div>
     </div>
   );
