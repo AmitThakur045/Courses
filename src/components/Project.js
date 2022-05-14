@@ -36,7 +36,9 @@ const Project = () => {
           </div>
         </div>
       </div>
-      <Slider />
+      <div className="w-[93%]">
+        <Slider />
+      </div>
       <div className="flex justify-center items-center">
         <div className="flex bg-blue-700 w-[19.3rem] space-x-3 p-2 rounded-md justify-center items-center">
           <button className="font-normal text-[1.2rem] text-white">

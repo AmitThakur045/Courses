@@ -12,10 +12,10 @@ import { data } from "../data/contentData";
 const Content = () => {
   const [open, setOpen] = useState(false);
   return (
-    <div className="my-14 px-[7.2rem]">
+    <div className="my-14 px-[7.2rem] ">
       <div className="flex">
         <div className="flex-[0.25] ">
-          <div className=" h-[35rem]  bg-[#f8f8f8] flex flex-col items-center  py-6 px-14 rounded-md">
+          <div className="h-[35rem] bg-[#dbd5d5a6] sticky top-0 flex flex-col items-center  py-6 px-14 rounded-md">
             <h1 className="font-[600] text-3xl text-center">
               Comprehensive Curriculum
             </h1>
