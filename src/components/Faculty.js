@@ -25,7 +25,7 @@ const Faculty = () => {
 
   return (
     <div>
-      <div className="bg-slate-100 p-14 space-y-4">
+      <div className="bg-slate-100 p-14 space-y-4 pl-[7.2rem]">
         <div className="font-bold text-4xl">Faculty and Mentors</div>
         <div className="text-slate-500 text-[1.02rem] font-normal w-[38rem]">
           Learn from leading academicians in the field of Data Science and
