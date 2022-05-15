@@ -1,35 +1,22 @@
 export const data = {
-  mainHeading: "Full Stack Java Developer Course Overview",
+  mainHeading: "Data Science with Python Course Overview",
   description:
-    "This Full Stack Java Developer Program is designed to give you an essence of front-end, middleware, and back-end Java web developer technologies. You will learn to build an end-to-end application, test and deploy code, store data using MongoDB, and much more.",
+    "The Data Science with Python course teaches you to master the concepts of Python programming. Through this Data Science with python certification training, you will learn Data Analysis, Machine Learning, Data Visualization, Web Scraping, & NLP. Upon course completion, you will master the essential Data Science tools using Python.",
   features: [
     {
-      value: "8X higher engagement in live online classes by industry experts",
+      value: "68 hours of blended learning",
     },
     {
-      value: "Build real-world applications like Amazon, Walmart etc.",
+      value: "Interactive learning with Jupyter notebooks labs",
     },
     {
-      value: "Land a job within 6 months of graduation",
+      value: "Dedicated mentoring session from faculty of industry experts",
     },
     {
-      value: "Learn 30+ cutting edge tools like SQL, Java, etc.",
+      value: "4 industry-based projects",
     },
     {
-      value:
-        "Start building your product from Day 1 with 100% hands-on training",
-    },
-    {
-      value: "Premium Job placements from top Tech and internet companies",
-    },
-    {
-      value: "Sandboxed cloud labs for real-time application development",
-    },
-    {
-      value: "Career mentoring through live sessions with industry experts",
-    },
-    {
-      value: "Industry recognized certification",
+      value: "Lifetime access to self-paced learning",
     },
   ],
 };
