@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import MainDisplay from "./components/MainDisplay";
 import Content from "./components/Content";
 import LanguageTools from "./components/LanguageTools";
+import Testimonial from "./components/Testimonial";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <LanguageTools />
       <Project />
       <Faculty />
+      <Testimonial />
     </div>
   );
 }
