@@ -1,6 +1,6 @@
 import React from "react";
 import Carousel from "react-elastic-carousel";
-import { UserOutlined, TeamOutlined } from "@ant-design/icons";
+import { AiOutlineUser, AiOutlineTeam } from "react-icons/ai";
 import FacultyMember from "./FacultyMember";
 import image from "../assests/image.jpg";
 
@@ -48,7 +48,7 @@ const Faculty = () => {
         <div className="flex space-x-4">
           <div className="flex w-[15rem] space-x-2 rounded-lg shadow-xl p-4 py-4 bg-white">
             <div className="bg-lime-400 rounded-full w-[4rem] p-[4px] h-[3.8rem] pt-[7px] pl-[7.3px]">
-              <UserOutlined style={{ fontSize: "45px" }} />
+              <AiOutlineUser style={{ fontSize: "45px" }} />
             </div>
             <div className="flex flex-col space-y-[0.3rem]">
               <div className="font-medium text-xl">1000+</div>
@@ -59,7 +59,7 @@ const Faculty = () => {
           </div>
           <div className="flex w-[15rem] space-x-2 rounded-lg shadow-xl p-4 py-4 bg-white">
             <div className="bg-sky-600 rounded-full w-[4rem] p-[4px] h-[3.8rem] pt-[7px] pl-[7.3px]">
-              <TeamOutlined style={{ fontSize: "45px" }} />
+              <AiOutlineTeam style={{ fontSize: "45px" }} />
             </div>
             <div className="flex flex-col space-y-[0.3rem]">
               <div className="font-medium text-xl">22+</div>
