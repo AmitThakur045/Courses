@@ -2,7 +2,6 @@ import React from "react";
 import { data } from "../data/mainDisplayData.js";
 import { AiFillPhone } from "react-icons/ai";
 import mainPage from "../assests/DataScienceMainPage.PNG";
-import { Link } from "react-scroll";
 const MainDisplay = () => {
   return (
     <div

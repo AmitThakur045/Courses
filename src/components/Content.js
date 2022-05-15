@@ -45,7 +45,7 @@ const Content = () => {
             <div className="bg-white flex shadow-md rounded-md px-3 py-2 w-[16rem] mt-4 space-x-3">
               <AiOutlineTool
                 style={{ color: "white" }}
-                className="text-[2rem] self-center bg-[#97a0fa] rounded-full p-2"
+                className="text-[2.8rem] self-center bg-[#97a0fa] rounded-full p-2"
               />
               <div className="">
                 <h1 className="font-bold text-2xl">{data.languages}</h1>
