@@ -5,9 +5,7 @@ export const data = {
   mainHeading: "Build a successful career in Data Science",
   courseName: "Complete program to help transform the Data into Information",
   extraImage: "",
-  rating: "580",
-  months: "11",
+  rating: "180",
+
   detail: "Online Mentorship",
-  closeData: "15th May 2022",
-  call: "080-4718-9251",
 };
