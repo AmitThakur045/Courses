@@ -8,7 +8,12 @@ import {
 import React, { useState } from "react";
 import Collapsible from "react-collapsible";
 import { data } from "../data/contentData";
-
+import Timeline from "@mui/lab/Timeline";
+import TimelineItem from "@mui/lab/TimelineItem";
+import TimelineSeparator from "@mui/lab/TimelineSeparator";
+import TimelineConnector from "@mui/lab/TimelineConnector";
+import TimelineContent from "@mui/lab/TimelineContent";
+import TimelineDot from "@mui/lab/TimelineDot";
 const Content = () => {
   const [open, setOpen] = useState(false);
   return (

@@ -1,13 +1,13 @@
 export const data = {
   contentDescription:
     "The curriculum has been designed by faculty from Great Lakes and UT Austin McCombs School of Business.",
-  learningContent: "225+",
+  learningContent: "150+",
   languages: "9+",
   courseContent: [
     {
-      sectionName: "Data Science Foundations",
+      sectionName: "About Data Science",
       sectionDescription:
-        "The Foundations block comprises five courses where we get our hands dirty with the introduction to Data Science, Statistics, Code, SQL Programming, and some domain-specific knowledge head-on. These courses set our foundations so that we sail through the rest of the journey with minimal hindrance.",
+        "The Data Scientist course offers extensive training on the most in-demand Data Science and Machine Learning skills with hands-on exposure to key tools and technologies including Python, R, Tableau, and concepts of Machine Learning. Become an expert in Data Science by diving deep into the nuances of data interpretation, mastering technologies like Machine Learning, mastering powerful programming",
       lesson: [
         {
           lessonName: "Introduction to Data Science",
