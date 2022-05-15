@@ -21,9 +21,9 @@ const Content = () => {
 
   return (
     <div className="my-14 px-[7.2rem] ">
-      <div className="flex">
-        <div className="flex-[0.25] ">
-          <div className="h-[32rem] bg-[#dbd5d5a6] sticky top-0 flex flex-col items-center  py-6 px-14 rounded-md">
+      <div className="flex lg:flex-row flex-col">
+        <div className="lg:flex-[0.25] ">
+          <div className="lg:h-[32rem] bg-[#dbd5d5a6] sticky top-0 flex flex-col items-center  py-6 px-14 rounded-md">
             <h1 className="font-[600] text-3xl text-center">
               Comprehensive Curriculum
             </h1>
@@ -60,7 +60,7 @@ const Content = () => {
             </button>
           </div>
         </div>
-        <div className="flex-[0.75]">
+        <div className="lg:flex-[0.75]">
           <div className=" ml-3 space-y-10">
             <Timeline>
               {data.courseContent?.map((section, sectionIdx) => (
