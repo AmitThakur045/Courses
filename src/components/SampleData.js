@@ -76,7 +76,7 @@ const SampleData = ({ id, photo, title, subtitle, description }) => {
               {description}
             </div>
           </div>
-          <div className="w-[2.5%]" onClick={() => setOpen(false)}>
+          <div className="w-[2.5%] hover:cursor-pointer" onClick={() => setOpen(false)}>
             <ImCross style={{ fontSize: "20px", color: "gray" }} />
           </div>
         </div>
