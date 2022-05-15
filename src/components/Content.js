@@ -21,9 +21,9 @@ const Content = () => {
 
   return (
     <div className="my-14 px-[7.2rem] ">
-      <div className="flex">
-        <div className="flex-[0.25] ">
-          <div className="h-[32rem] bg-[#dbd5d5a6] sticky top-0 flex flex-col items-center  py-6 px-14 rounded-md">
+      <div className="flex lg:flex-row flex-col">
+        <div className="lg:flex-[0.25] ">
+          <div className="lg:h-[32rem] bg-[#dbd5d5a6] sticky top-0 flex flex-col items-center  py-6 px-14 rounded-md">
             <h1 className="font-[600] text-3xl text-center">
               Comprehensive Curriculum
             </h1>
@@ -45,7 +45,7 @@ const Content = () => {
             <div className="bg-white flex shadow-md rounded-md px-3 py-2 w-[16rem] mt-4 space-x-3">
               <AiOutlineTool
                 style={{ color: "white" }}
-                className="text-[2rem] self-center bg-[#97a0fa] rounded-full p-2"
+                className="text-[2.8rem] self-center bg-[#97a0fa] rounded-full p-2"
               />
               <div className="">
                 <h1 className="font-bold text-2xl">{data.languages}</h1>
@@ -60,7 +60,7 @@ const Content = () => {
             </button>
           </div>
         </div>
-        <div className="flex-[0.75]">
+        <div className="lg:flex-[0.75]">
           <div className=" ml-3 space-y-10">
             <Timeline>
               {data.courseContent?.map((section, sectionIdx) => (
