@@ -1,10 +1,10 @@
 import React from "react";
 import Slider from "./Slider";
 import {
-  FundProjectionScreenOutlined,
-  SearchOutlined,
-  DownloadOutlined,
-} from "@ant-design/icons";
+  AiOutlineFundProjectionScreen,
+  AiOutlineSearch,
+  AiOutlineDownload,
+} from "react-icons/ai";
 
 const Project = () => {
   return (
@@ -14,10 +14,10 @@ const Project = () => {
         Data sets from the industry{" "}
         <span className="font-medium">UBER NETFLIX AMAZON</span>
       </div>
-      <div className="flex space-x-4 flex-row-reverse mr-28">
+      <div className="flex space-x-4">
         <div className="flex w-[15rem] space-x-2 rounded-lg shadow-xl p-4 py-4">
-          <div className="bg-lime-400 rounded-full lg:w-[4rem] p-[4px] lg:h-[3.8rem] md:w-[2rem] md:h-[1.5rem] sm:w-[2rem] md-[1.5rem] pt-[7px] pl-[7.3px]">
-            <FundProjectionScreenOutlined style={{ fontSize: "45px" }} />
+          <div className="bg-lime-400 rounded-full w-[4rem] p-[4px] h-[3.8rem] pt-[7px] pl-[7.3px]">
+            <AiOutlineFundProjectionScreen style={{ fontSize: "45px" }} />
           </div>
           <div className="flex flex-col space-y-[0.3rem]">
             <div className="font-medium text-xl">1000+</div>
@@ -28,7 +28,7 @@ const Project = () => {
         </div>
         <div className="flex w-[15rem] space-x-2 rounded-lg shadow-xl p-4 py-4">
           <div className="bg-sky-600 rounded-full w-[4rem] p-[4px] h-[3.8rem] pt-[7px] pl-[7.3px]">
-            <SearchOutlined style={{ fontSize: "45px" }} />
+            <AiOutlineSearch style={{ fontSize: "45px" }} />
           </div>
           <div className="flex flex-col space-y-[0.3rem]">
             <div className="font-medium text-xl">22+</div>
@@ -45,7 +45,7 @@ const Project = () => {
             Download Project List
           </button>
           <div>
-            <DownloadOutlined style={{ fontSize: "30px", color: "white" }} />
+            <AiOutlineDownload style={{ fontSize: "30px", color: "white" }} />
           </div>
         </div>
       </div>
