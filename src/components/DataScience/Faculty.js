@@ -1,7 +1,6 @@
 import React from "react";
 import Carousel from "react-elastic-carousel";
-import { AiOutlineUser, AiOutlineTeam } from "react-icons/ai";
-import image from "../assests/image.jpg";
+import image from "../../assests/image.jpg";
 
 const styles = {
   display: "flex",

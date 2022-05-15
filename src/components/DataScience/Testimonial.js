@@ -1,6 +1,6 @@
 import React from "react";
 import Carousel from "react-elastic-carousel";
-import test from "../assests/test.jpg";
+import test from "../../assests/test.jpg";
 
 const styles = {
   display: "flex",

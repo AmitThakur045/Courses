@@ -1,7 +1,5 @@
 import React from "react";
-import { data } from "../data/mainDisplayData.js";
-import { AiFillPhone } from "react-icons/ai";
-import mainPage from "../assests/DataScienceMainPage.PNG";
+import { data } from "./data/mainDisplayData.js";
 const MainDisplay = () => {
   return (
     <div
@@ -40,7 +38,7 @@ const MainDisplay = () => {
             </button>
             <button
               type="button"
-              className="text-black border-[1px] border-black  h-[3rem] w-[10rem]lg:h-[3.5rem] lg:w-[15rem] text-lg rounded-md hover:shadow-lg hover:shadow-gray-400 duration-200 transition-all cursor-pointer">
+              className="text-black border-[1px] border-black  h-[3rem] w-[10rem] lg:h-[3.5rem] lg:w-[15rem] text-lg rounded-md hover:shadow-lg hover:shadow-gray-400 duration-200 transition-all cursor-pointer">
               Contact Us
             </button>
           </div>

@@ -1,6 +1,5 @@
-import { DateRangePicker } from "@mui/lab";
 import React from "react";
-import { data } from "../data/keyFeaturesData.js";
+import { data } from "./data/keyFeaturesData.js";
 import { AiOutlineCheckCircle } from "react-icons/ai";
 const KeyFeatures = () => {
   return (

@@ -7,7 +7,7 @@ import {
 } from "react-icons/ai";
 import React, { useState } from "react";
 import Collapsible from "react-collapsible";
-import { data } from "../data/contentData";
+import { data } from "./data/contentData";
 import Timeline from "@mui/lab/Timeline";
 import TimelineItem from "@mui/lab/TimelineItem";
 import TimelineSeparator from "@mui/lab/TimelineSeparator";
