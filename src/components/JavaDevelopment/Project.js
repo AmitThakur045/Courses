@@ -15,10 +15,7 @@ const Project = () => {
         Data sets from the industry
       </div>
       <div className="flex w-[100%] items-center">
-        <div className="w-[50%]">
-          <img src={netflix} alt="" className="w-[20rem]" />
-        </div>
-        <div className="flex w-[50%] space-x-reverse space-x-4 flex-row-reverse mr-28">
+        <div className="flex w-[50%] space-x-reverse space-x-4 mr-28">
           <div className="flex w-[15rem] space-x-2 rounded-lg shadow-xl p-4 py-4">
             <div className="bg-lime-400 rounded-full w-[4rem] p-[4px] h-[3.8rem] pt-[7px] pl-[7.3px]">
               <AiOutlineFundProjectionScreen style={{ fontSize: "45px" }} />
