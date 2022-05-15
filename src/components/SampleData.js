@@ -3,20 +3,20 @@ import photo from "../assests/sample.png";
 
 const SampleData = () => {
   return (
-    <div className="flex space-x-3 border-2 rounded-lg shadow-sm p-3">
+    <div className="flex space-x-3 border-2 rounded-lg w-[41.3rem] h-auto shadow-sm p-3">
       <div className="bg-slate-200 rounded-lg h-[13rem] w-[13rem] p-[4rem]">
         <img src={photo} alt="logo" />
       </div>
       <div className="flex flex-col space-y-3 justify-between">
         <div className="flex flex-col space-y-6 justify-start">
-          <div className="text-slate-500 text-[1.1rem] font-light w-[26rem] flex justify-start">
+          <div className="text-slate-500 text-[1.1rem] font-light flex justify-start">
             Real Estate
           </div>
-          <div className="font-medium text-2xl w-[26rem] flex justify-start">
+          <div className="font-medium text-2xl flex justify-start">
             House Price Prediction
           </div>
         </div>
-        <div className="text-sky-600 text-1xl w-[26rem] flex justify-start">
+        <div className="text-sky-600 text-1xl flex justify-start">
           LEARN MORE
         </div>
       </div>
