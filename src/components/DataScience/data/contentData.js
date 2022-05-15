@@ -1,6 +1,6 @@
 export const data = {
   contentDescription:
-    "The curriculum has been designed by faculty from Great Lakes and highly skilled and deeply knowledgeable experts of data science.",
+    "The curriculum has been designed by faculty from Bessalani and highly skilled and deeply knowledgeable experts of data science.",
   learningContent: "150+",
   languages: "9+",
   courseContent: [

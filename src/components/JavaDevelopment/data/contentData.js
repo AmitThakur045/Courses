@@ -1,6 +1,6 @@
 export const data = {
   contentDescription:
-    "The Full Stack Java Developer Job Guarantee Program is an intense Bootcamp that offers a complete suite of software development skills.",
+    "The Full Stack Java Developer Program is an intense Bootcamp that offers a complete suite of software development skills.",
   learningContent: "150+",
   languages: "9+",
   courseContent: [

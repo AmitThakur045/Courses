@@ -31,8 +31,7 @@ const MainDisplay = () => {
               <p className="ml-1 opacity-70">{data.rating} Ratings</p>
             </div>
             <span className="opacity-70">&#9642;</span>
-            <p className="opacity-70">{data.months} Months</p>
-            <span className="opacity-70">&#9642;</span>
+
             <p className="opacity-70">{data.detail}</p>
           </div>
           <div className="space-x-5 ">

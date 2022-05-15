@@ -2,11 +2,8 @@ export const data = {
   courseImage: "",
   courseLogo: "",
   mainHeading: "Build a successful career as a Java Developer",
-  courseName: "Complete program to help transform the Data into Information",
+  courseName: "Complete program to help make a Full Stack Java Developer",
   extraImage: "",
-  rating: "580",
-  months: "11",
+  rating: "150",
   detail: "Online Mentorship",
-  closeData: "15th May 2022",
-  call: "080-4718-9251",
 };

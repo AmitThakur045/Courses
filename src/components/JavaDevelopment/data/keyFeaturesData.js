@@ -9,9 +9,7 @@ export const data = {
     {
       value: "Build real-world applications like Amazon, Walmart etc.",
     },
-    {
-      value: "Land a job within 6 months of graduation",
-    },
+
     {
       value: "Learn 30+ cutting edge tools like SQL, Java, etc.",
     },
@@ -19,12 +17,7 @@ export const data = {
       value:
         "Start building your product from Day 1 with 100% hands-on training",
     },
-    {
-      value: "Premium Job placements from top Tech and internet companies",
-    },
-    {
-      value: "Sandboxed cloud labs for real-time application development",
-    },
+
     {
       value: "Career mentoring through live sessions with industry experts",
     },
