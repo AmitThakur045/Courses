@@ -2,7 +2,9 @@ import React from "react";
 
 const ContactUs = () => {
   return (
-    <div className="px-[7.2rem] bg-[#edf4ff] py-20 flex flex-col lg:flex-row">
+    <div
+      className="px-[7.2rem] bg-[#edf4ff] py-20 flex flex-col lg:flex-row"
+      id="contactUs">
       <div className="lg:flex-[0.3] flex flex-col space-y-20">
         <h1 className="font-bold text-[35px]">
           Still have queries? Contact Us
