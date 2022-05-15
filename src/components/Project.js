@@ -48,14 +48,15 @@ const Project = () => {
         <Slider />
       </div>
       <div className="flex justify-center items-center">
-        <div className="flex bg-blue-700 w-[19.3rem] space-x-3 p-2 rounded-md justify-center items-center">
-          <button className="font-normal text-[1.2rem] text-white">
-            Download Project List
-          </button>
+        <button
+          type="button"
+          className="text-white items-center justify-center flex space-x-3 bg-[#196ae5] h-[3.5rem] w-[15rem] text-lg rounded-md hover:shadow-lg hover:shadow-gray-400 duration-200 transition-all cursor-pointer"
+        >
+          <div>Download Project List</div>
           <div>
             <AiOutlineDownload style={{ fontSize: "30px", color: "white" }} />
           </div>
-        </div>
+        </button>
       </div>
     </div>
   );
