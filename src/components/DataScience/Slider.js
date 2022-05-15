@@ -1,7 +1,7 @@
 import React from "react";
 import Carousel from "react-elastic-carousel";
 import SampleData from "./SampleData";
-import photo from "../assests/sample.png";
+import photo from "../../assests/sample.png";
 
 const styles = {
   display: "flex",

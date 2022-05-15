@@ -1,7 +1,5 @@
-import React, { useEffect, useRef } from "react";
-import { data } from "../data/mainDisplayData.js";
-import { AiFillPhone } from "react-icons/ai";
-import mainPage from "../assests/DataScienceMainPage.PNG";
+import React from "react";
+import { data } from "./data/mainDisplayData.js";
 
 const MainDisplay = () => {
   const scrollToBottom = async () => {
@@ -14,8 +12,7 @@ const MainDisplay = () => {
       style={{
         backgroundImage: `url(${data.courseImage})`,
         backgroundSize: "cover",
-      }}
-    >
+      }}>
       <div className="lg:flex-[0.7] xl:flex-[0.6] 2xl:flex-[0.5] flex-[0.9]  flex flex-col justify-center space-y-5">
         <div className="bg-white w-[85%] rounded-md flex flex-col px-8 py-8 space-y-6 self-end">
           <h1 className="font-semibold text-4xl">{data.mainHeading}</h1>
@@ -41,15 +38,13 @@ const MainDisplay = () => {
           <div className="space-x-5 ">
             <button
               type="button"
-              className="text-white bg-[#196ae5] h-[3rem] w-[10rem] lg:h-[3.5rem] lg:w-[15rem] text-lg rounded-md hover:shadow-lg hover:shadow-gray-400 duration-200 transition-all cursor-pointer"
-            >
+              className="text-white bg-[#196ae5] h-[3rem] w-[10rem] lg:h-[3.5rem] lg:w-[15rem] text-lg rounded-md hover:shadow-lg hover:shadow-gray-400 duration-200 transition-all cursor-pointer">
               Download Brochure
             </button>
             <button
               type="button"
               onClick={() => scrollToBottom()}
-              className="text-black border-[1px] border-black  h-[3rem] w-[10rem]lg:h-[3.5rem] lg:w-[15rem] text-lg rounded-md hover:shadow-lg hover:shadow-gray-400 duration-200 transition-all cursor-pointer"
-            >
+              className="text-black border-[1px] border-black  h-[3rem] w-[10rem]lg:h-[3.5rem] lg:w-[15rem] text-lg rounded-md hover:shadow-lg hover:shadow-gray-400 duration-200 transition-all cursor-pointer">
               Contact Us
             </button>
           </div>
