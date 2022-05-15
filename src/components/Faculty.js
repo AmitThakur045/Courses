@@ -44,30 +44,6 @@ const Faculty = () => {
           Business Analytics and several experienced industry practitioners from
           top organisations.
         </div>
-        <div className="flex space-x-4">
-          <div className="flex w-[15rem] space-x-2 rounded-lg shadow-xl p-4 py-4 bg-white">
-            <div className="bg-lime-400 rounded-full w-[4rem] p-[4px] h-[3.8rem] pt-[7px] pl-[7.3px]">
-              <AiOutlineUser style={{ fontSize: "45px" }} />
-            </div>
-            <div className="flex flex-col space-y-[0.3rem]">
-              <div className="font-medium text-xl">1000+</div>
-              <div className="text-slate-500 text-[1rem] font-normal">
-                Project Completed
-              </div>
-            </div>
-          </div>
-          <div className="flex w-[15rem] space-x-2 rounded-lg shadow-xl p-4 py-4 bg-white">
-            <div className="bg-sky-600 rounded-full w-[4rem] p-[4px] h-[3.8rem] pt-[7px] pl-[7.3px]">
-              <AiOutlineTeam style={{ fontSize: "45px" }} />
-            </div>
-            <div className="flex flex-col space-y-[0.3rem]">
-              <div className="font-medium text-xl">22+</div>
-              <div className="text-slate-500 text-[1rem] font-normal">
-                Domain
-              </div>
-            </div>
-          </div>
-        </div>
         <div className="p-2">
           <Carousel breakPoints={breakPoints}>
             {items.map((item) => (
