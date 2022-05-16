@@ -74,6 +74,7 @@ const Faculty = () => {
                   backgroundRepeat: "no-repeat",
                   color: "#fff",
                   margin: "0 15px",
+                  padding: "10px",
                   backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(${item.img})`,
                 }}
                 key={item.id}>
