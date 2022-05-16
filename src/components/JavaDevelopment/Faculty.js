@@ -1,30 +1,19 @@
 import React from "react";
 import Carousel from "react-elastic-carousel";
-import image from "../../assests/image.jpg";
-
-const styles = {
-  display: "flex",
-  justifyContent: "center",
-  alignItems: "end",
-  width: "100%",
-  height: "320px",
-  backgroundposition: "top",
-  backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(${image})`,
-  backgroundsize: "cover",
-  color: "#fff",
-  margin: "0 15px",
-};
+import { BsLinkedin } from "react-icons/bs";
+import dheeraj from "../../assests/JAVA/Dheeraj_Kumar_JAVA.jfif";
+import james from "../../assests/JAVA/James_JAVA.jfif";
+import nikunj from "../../assests/JAVA/Nikunj_Soni_JAVA.jfif";
+import raghavendra from "../../assests/JAVA/Raghavendra_M_J_Java.jfif";
+import sonam from "../../assests/JAVA/Sonam_Soni_JAVA.jfif";
 
 const Faculty = () => {
   const items = [
-    { id: 1, title: "item #1" },
-    { id: 2, title: "item #2" },
-    { id: 3, title: "item #3" },
-    { id: 4, title: "item #4" },
-    { id: 5, title: "item #5" },
-    { id: 7, title: "item #7" },
-    { id: 8, title: "item #8" },
-    { id: 9, title: "item #9" },
+    { id: 1, title: "Dheeraj Kumar", photo: dheeraj, linkdin: "https://www.linkedin.com/in/dheerajskumar/"  },
+    { id: 2, title: "James", photo: james, linkdin: "https://www.linkedin.com/in/james-ring-howell-31a0521/" },
+    { id: 3, title: "Nikunj Soni", photo: nikunj, linkdin: "https://www.linkedin.com/in/nikunj-soni-22162a20b/" },
+    { id: 4, title: "Raghavendra MJ", photo: raghavendra, linkdin: "https://www.linkedin.com/in/raghavendramj/" },
+    { id: 5, title: "Sonam Soni", photo: sonam, linkdin: "https://www.linkedin.com/in/sonam-soni/" },
   ];
 
   const breakPoints = [
@@ -46,10 +35,26 @@ const Faculty = () => {
         <div className="p-2">
           <Carousel breakPoints={breakPoints}>
             {items.map((item) => (
-              <div style={styles} key={item.id}>
-                <div className="flex flex-col">
-                  <p className="text-xl">{item.title}</p>
-                  <p className="text-sm from-stone-300">Description</p>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "end",
+                  width: "100%",
+                  height: "320px",
+                  backgroundPosition: "center",
+                  backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(${item.photo})`,
+                  backgroundsize: "cover",
+                  backgroundRepeat: "no-repeat",
+                  color: "#fff",
+                  margin: "0 15px",
+                  padding: "10px"
+                }}
+                key={item.id}
+              >
+                <div className="flex space-x-3">
+                  <p className="text-[1.3rem]">{item.title}</p>
+                  <a href={item.linkdin}><BsLinkedin style={{ fontSize: "30px"}}/></a>
                 </div>
               </div>
             ))}
