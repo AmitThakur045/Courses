@@ -1,30 +1,46 @@
 import React from "react";
 import Carousel from "react-elastic-carousel";
-import image from "../../assests/image.jpg";
-
-const styles = {
-  display: "flex",
-  justifyContent: "center",
-  alignItems: "end",
-  width: "100%",
-  height: "320px",
-  backgroundposition: "top",
-  backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(${image})`,
-  backgroundsize: "cover",
-  color: "#fff",
-  margin: "0 15px",
-};
+import image1 from "../../assests/DataScience/Darshan_Ingle_DS.jfif";
+import image2 from "../../assests/DataScience/Nikhil_Garg_DS.jfif";
+import image3 from "../../assests/DataScience/Phani_Karnati_DS.jfif";
+import image4 from "../../assests/DataScience/Sahil_Mattoo_DS.jfif";
+import image5 from "../../assests/DataScience/Uohna_Thiessen_DS.jfif";
+import { BsLinkedin } from "react-icons/bs";
+const styles = {};
 
 const Faculty = () => {
   const items = [
-    { id: 1, title: "item #1" },
-    { id: 2, title: "item #2" },
-    { id: 3, title: "item #3" },
-    { id: 4, title: "item #4" },
-    { id: 5, title: "item #5" },
-    { id: 7, title: "item #7" },
-    { id: 8, title: "item #8" },
-    { id: 9, title: "item #9" },
+    {
+      id: 1,
+      title: "Darshan Ingle",
+      linkedIn:
+        "https://www.linkedin.com/in/dr-darshan-ingle-corporate-trainer/",
+      img: image1,
+    },
+    {
+      id: 2,
+      title: "Nikhil Garg",
+      linkedIn: "https://www.linkedin.com/in/nikhil1684/",
+      img: image2,
+    },
+    {
+      id: 3,
+      title: "Phani Karnati",
+      linkedIn: "https://www.linkedin.com/in/phani-karnati/",
+      img: image3,
+    },
+    {
+      id: 4,
+      title: "Sahil Mattoo",
+      linkedIn: "https://www.linkedin.com/in/sahil-mattoo-76276810/",
+      img: image4,
+    },
+    {
+      id: 5,
+      title: "Uohna Thiessen",
+      linkedIn: "https://www.linkedin.com/in/drt-datascientist/",
+      img: image5,
+    },
   ];
 
   const breakPoints = [
@@ -46,10 +62,31 @@ const Faculty = () => {
         <div className="p-2">
           <Carousel breakPoints={breakPoints}>
             {items.map((item) => (
-              <div style={styles} key={item.id}>
-                <div className="flex flex-col">
-                  <p className="text-xl">{item.title}</p>
-                  <p className="text-sm from-stone-300">Description</p>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "end",
+                  width: "100%",
+                  height: "320px",
+                  backgroundPosition: "center",
+                  backgroundsize: "cover",
+                  backgroundRepeat: "no-repeat",
+                  color: "#fff",
+                  margin: "0 15px",
+                  backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(${item.img})`,
+                }}
+                key={item.id}>
+                <div className="flex  space-x-3">
+                  <p className="text-[1.3rem]">{item.title}</p>
+
+                  <a
+                    className=""
+                    target="_blank"
+                    href={item.linkedIn}
+                    rel="noreferrer">
+                    <BsLinkedin style={{ fontSize: "30px" }} />
+                  </a>
                 </div>
               </div>
             ))}
